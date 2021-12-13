@@ -9,7 +9,7 @@ fn main() {
     let args: Vec<String> = env::args().collect();
 
     if args.len() != 2 {
-        println!("day10 <file>");
+        println!("day13 <file>");
         process::exit(1);
     }
     let input: Vec<String> = load_file(&args[1]);
